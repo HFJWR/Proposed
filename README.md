@@ -1,6 +1,19 @@
 # Proposed
-提案手法アーカイブ
+提案手法のアーカイブ
+
+## 提案手法概要
+<details>
+<summary>
+ソーシャルメディアにおいて，ユーザ推薦システムは新しい...
+</summary>
+
+ソーシャルメディアにおいて，ユーザ推薦システムは新しいコンテンツとの出会いや交友関係の拡大に重要な役割を果たす．しかし，推薦精度の向上を重視するあまり，類似したユーザのみを提示することでエコーチェンバーやフィルターバブルを形成するという問題が指摘されている．本研究では，この問題に対し，ユーザの相互作用とコミュニティ情報を活用した2段階の多様化手法を提案する．第1段階ではデータセット全体の多様性を向上させ，第2段階では個人の推薦リストをリランキングすることで，更なる多様化を実現する．代表的なソーシャルメディアであるTwitter (現X)のデータを用いた実験により，提案手法が従来手法と同等の推薦精度を保ちながら，多様性指標において最大2.5倍の向上を達成することを確認した．
+
+</details>
+
 ![Image](https://github.com/user-attachments/assets/b68d47bf-5297-4bf5-ab88-922b78bfe61c)
+
+
 # Directory Tree
 Programs以下の大まかなディレクトリ構造
 ~~~
@@ -17,38 +30,25 @@ Programs以下の大まかなディレクトリ構造
     └── datasets（データセットの元データ）
 ~~~
 
-# Dataloader
-BLM，OAGのデータセットを作成します
-
-## BLMconstructor
-### ディレクトリ構造
-~~~
-── BLMconstrutor
-    │   ├── conf（収集期間やtrain,test,valの変更）
-    │   ├── output（作成したデータセット，作成時の中間ファイル（データベース））
-    │   └── result（Homogeniety Levelや推薦結果のテキストファイル）
-~~~
-### Running
-~~~
-python main.py
-~~~
-・実行することでdatasets内の元データからコミュニティ情報付きの二部グラフを作成します
-    - 出力先: ./Dataloader/BLMconstructor/datasets/
-    - データセット名: 実行時の日付、時間
-・手法ごとにデータセットの形式が異なるためフォルダ分けしています
-・item_categoryは提案手法と共通しているのでコピペで追加してください
-
-## OAGconstructor
-基本的にはBLMconstructorと同様です．
-confファイルの廃止，2012年のデータのみに絞る，等一部変更があります．
+- Dataloader
+    BLM，OAGのデータセット(二部グラフ)を作成
+    - BLMconstructor: BLMdatasets内の元データからコミュニティ情報付きの二部グラフを作成
+    - OAGconstructor: OAGdataset内の元データからコミュニティ情報付きの二部グラフを作成
+    ~~~
+    ── BLMconstrutor
+        │   ├── conf（収集期間やtrain,test,valの変更）
+        │   ├── output（作成したデータセット，作成時の中間ファイル（データベース））
+        │   └── result（Homogeniety Levelや推薦結果のテキストファイル）
+    ~~~
 
 
-# RecSystems
-提案手法，比較手法をまとめています
-## Proposed
-~~~
-python main.py --lr 0.05 --weight_decay 1e-6 --beta_class 0.90 --epoch 300 --patience 10 --dataset BLM
-~~~
+- RecSystems
+    提案手法，比較手法をまとめています
+    - Proposed
+        実行方法
+        ~~~
+        python main.py --lr 0.05 --weight_decay 1e-6 --beta_class 0.90 --epoch 300 --patience 10 --dataset BLM
+        ~~~
 ・Step2のリランキングは(./utils/tester.py)の256~296行目のコメントアウトを解除して実行
 ・リランキングなしの場合は全部コメントアウト
 
