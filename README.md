@@ -1,8 +1,8 @@
 # Proposed
 提案手法アーカイブ
-
+![Image](https://github.com/user-attachments/assets/b68d47bf-5297-4bf5-ab88-922b78bfe61c)
 # Directory Tree
-Programs以下のディレクトリ構造
+Programs以下の大まかなディレクトリ構造
 ~~~
 .
 └── Programs
@@ -15,11 +15,6 @@ Programs以下のディレクトリ構造
     │   ├── Proposed（提案手法）
     │   └── SELFRec（比較手法2: XSimGCL）
     └── datasets（データセットの元データ）
-~~~
-・作成済みデータセットは推薦手法ごとに用意して各ディレクトリに配置済みです(BLMのみ)
-・データセット作成時の元データ詳細は以下ディレクトリのmemo.txtに記載しています
-~~~
-Programs/datasets/memo.txt
 ~~~
 
 # Dataloader
