@@ -1,0 +1,14 @@
+Top 20
+Hit Ratio:0.09298
+Precision:0.00802
+Recall:0.09192
+NDCG:0.04687
+coverage:0.0
+entropy:0.0
+Top 100
+Hit Ratio:0.21781
+Precision:0.00376
+Recall:0.21225
+NDCG:0.07174
+coverage:0.0
+entropy:0.0

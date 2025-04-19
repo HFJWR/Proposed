@@ -1,0 +1,15 @@
+2024-11-20 09:10:17,325 - XSimGCL - INFO - ### model configuration ###
+2024-11-20 09:10:17,326 - XSimGCL - INFO - training.set=./dataset/MAG/train.txt
+2024-11-20 09:10:17,326 - XSimGCL - INFO - test.set=./dataset/MAG/test.txt
+2024-11-20 09:10:17,326 - XSimGCL - INFO - model.name=XSimGCL
+2024-11-20 09:10:17,326 - XSimGCL - INFO - model.type=graph
+2024-11-20 09:10:17,326 - XSimGCL - INFO - item.ranking=-topN 20,100
+2024-11-20 09:10:17,326 - XSimGCL - INFO - embedding.size=64
+2024-11-20 09:10:17,326 - XSimGCL - INFO - num.max.epoch=30
+2024-11-20 09:10:17,326 - XSimGCL - INFO - batch_size=2048
+2024-11-20 09:10:17,326 - XSimGCL - INFO - learnRate=0.001
+2024-11-20 09:10:17,326 - XSimGCL - INFO - reg.lambda=0.0001
+2024-11-20 09:10:17,326 - XSimGCL - INFO - XSimGCL=-n_layer 2 -l* 1 -lambda 0.2 -eps 0.2 -tau 0.15
+2024-11-20 09:10:17,326 - XSimGCL - INFO - output.setup=-dir ./results/
+2024-11-20 09:13:06,984 - XSimGCL - INFO - ###Evaluation Results###
+2024-11-20 09:13:06,984 - XSimGCL - INFO - ['Top 20\n', 'Hit Ratio:0.25735\n', 'Precision:0.03248\n', 'Recall:0.23065\n', 'NDCG:0.13795\n', 'coverage:12.15139\n', 'entropy:2.3444\n', 'gini:0.26136\n', 'Top 100\n', 'Hit Ratio:0.49562\n', 'Precision:0.01251\n', 'Recall:0.40688\n', 'NDCG:0.1793\n', 'coverage:26.47385\n', 'entropy:2.87908\n', 'gini:0.47336\n']

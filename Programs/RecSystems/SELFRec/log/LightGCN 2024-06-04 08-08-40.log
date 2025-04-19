@@ -1,0 +1,15 @@
+2024-06-04 08:08:48,729 - LightGCN - INFO - ### model configuration ###
+2024-06-04 08:08:48,730 - LightGCN - INFO - training.set=./dataset/BLM/train.txt
+2024-06-04 08:08:48,730 - LightGCN - INFO - test.set=./dataset/BLM/test.txt
+2024-06-04 08:08:48,730 - LightGCN - INFO - model.name=LightGCN
+2024-06-04 08:08:48,730 - LightGCN - INFO - model.type=graph
+2024-06-04 08:08:48,730 - LightGCN - INFO - item.ranking=-topN 20,100
+2024-06-04 08:08:48,730 - LightGCN - INFO - embedding.size=64
+2024-06-04 08:08:48,730 - LightGCN - INFO - num.max.epoch=10
+2024-06-04 08:08:48,730 - LightGCN - INFO - batch_size=2048
+2024-06-04 08:08:48,730 - LightGCN - INFO - learnRate=0.001
+2024-06-04 08:08:48,730 - LightGCN - INFO - reg.lambda=0.0001
+2024-06-04 08:08:48,730 - LightGCN - INFO - LightGCN=-n_layer 3
+2024-06-04 08:08:48,730 - LightGCN - INFO - output.setup=-dir ./results/
+2024-06-04 08:09:37,575 - LightGCN - INFO - ###Evaluation Results###
+2024-06-04 08:09:37,575 - LightGCN - INFO - ['Top 20\n', 'Hit Ratio:0.0925\n', 'Precision:0.00798\n', 'Recall:0.09214\n', 'NDCG:0.04573\n', 'entropy:0\n', 'Top 100\n', 'Hit Ratio:0.23015\n', 'Precision:0.00397\n', 'Recall:0.22508\n', 'NDCG:0.07325\n', 'entropy:0\n']

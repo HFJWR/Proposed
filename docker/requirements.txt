@@ -1,0 +1,16 @@
+ipython
+jupyterlab
+tensorboard
+tensorboardX
+
+y-py==0.6.0
+protobuf==3.20.3
+
+requests
+matplotlib
+seaborn
+umap-learn
+community
+python-louvain
+networkx
+matplotlib

@@ -1,0 +1,15 @@
+2024-06-04 04:07:27,602 - SimGCL - INFO - ### model configuration ###
+2024-06-04 04:07:27,602 - SimGCL - INFO - training.set=./dataset/yelp2018/train.txt
+2024-06-04 04:07:27,602 - SimGCL - INFO - test.set=./dataset/yelp2018/test.txt
+2024-06-04 04:07:27,602 - SimGCL - INFO - model.name=SimGCL
+2024-06-04 04:07:27,602 - SimGCL - INFO - model.type=graph
+2024-06-04 04:07:27,602 - SimGCL - INFO - item.ranking=-topN 10,20
+2024-06-04 04:07:27,602 - SimGCL - INFO - embedding.size=64
+2024-06-04 04:07:27,603 - SimGCL - INFO - num.max.epoch=20
+2024-06-04 04:07:27,603 - SimGCL - INFO - batch_size=2048
+2024-06-04 04:07:27,603 - SimGCL - INFO - learnRate=0.001
+2024-06-04 04:07:27,603 - SimGCL - INFO - reg.lambda=0.0001
+2024-06-04 04:07:27,603 - SimGCL - INFO - SimGCL=-n_layer 2 -lambda 0.5 -eps 0.1
+2024-06-04 04:07:27,603 - SimGCL - INFO - output.setup=-dir ./results/
+2024-06-04 04:36:37,629 - SimGCL - INFO - ###Evaluation Results###
+2024-06-04 04:36:37,629 - SimGCL - INFO - ['Top 10\n', 'Hit Ratio:0.03753\n', 'Precision:0.03841\n', 'Recall:0.04291\n', 'NDCG:0.04919\n', 'Top 20\n', 'Hit Ratio:0.06375\n', 'Precision:0.03263\n', 'Recall:0.0724\n', 'NDCG:0.05978\n']

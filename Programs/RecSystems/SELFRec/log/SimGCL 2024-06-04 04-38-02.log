@@ -1,0 +1,13 @@
+2024-06-04 04:38:11,817 - SimGCL - INFO - ### model configuration ###
+2024-06-04 04:38:11,817 - SimGCL - INFO - training.set=./dataset/yelp2018/train.txt
+2024-06-04 04:38:11,817 - SimGCL - INFO - test.set=./dataset/yelp2018/test.txt
+2024-06-04 04:38:11,817 - SimGCL - INFO - model.name=SimGCL
+2024-06-04 04:38:11,817 - SimGCL - INFO - model.type=graph
+2024-06-04 04:38:11,817 - SimGCL - INFO - item.ranking=-topN 20,100
+2024-06-04 04:38:11,817 - SimGCL - INFO - embedding.size=64
+2024-06-04 04:38:11,817 - SimGCL - INFO - num.max.epoch=300
+2024-06-04 04:38:11,817 - SimGCL - INFO - batch_size=2048
+2024-06-04 04:38:11,817 - SimGCL - INFO - learnRate=0.001
+2024-06-04 04:38:11,817 - SimGCL - INFO - reg.lambda=0.0001
+2024-06-04 04:38:11,817 - SimGCL - INFO - SimGCL=-n_layer 2 -lambda 0.5 -eps 0.1
+2024-06-04 04:38:11,817 - SimGCL - INFO - output.setup=-dir ./results/

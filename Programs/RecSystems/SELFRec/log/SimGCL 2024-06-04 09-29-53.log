@@ -1,0 +1,15 @@
+2024-06-04 09:29:59,477 - SimGCL - INFO - ### model configuration ###
+2024-06-04 09:29:59,477 - SimGCL - INFO - training.set=./dataset/BLM/train.txt
+2024-06-04 09:29:59,477 - SimGCL - INFO - test.set=./dataset/BLM/test.txt
+2024-06-04 09:29:59,477 - SimGCL - INFO - model.name=SimGCL
+2024-06-04 09:29:59,477 - SimGCL - INFO - model.type=graph
+2024-06-04 09:29:59,477 - SimGCL - INFO - item.ranking=-topN 20,100
+2024-06-04 09:29:59,477 - SimGCL - INFO - embedding.size=64
+2024-06-04 09:29:59,477 - SimGCL - INFO - num.max.epoch=30
+2024-06-04 09:29:59,477 - SimGCL - INFO - batch_size=2048
+2024-06-04 09:29:59,477 - SimGCL - INFO - learnRate=0.001
+2024-06-04 09:29:59,477 - SimGCL - INFO - reg.lambda=0.0001
+2024-06-04 09:29:59,477 - SimGCL - INFO - SimGCL=-n_layer 2 -lambda 0.5 -eps 0.1
+2024-06-04 09:29:59,477 - SimGCL - INFO - output.setup=-dir ./results/
+2024-06-04 09:35:35,244 - SimGCL - INFO - ###Evaluation Results###
+2024-06-04 09:35:35,244 - SimGCL - INFO - ['Top 20\n', 'Hit Ratio:0.15895\n', 'Precision:0.01372\n', 'Recall:0.16118\n', 'NDCG:0.08542\n', 'coverage:4.39206\n', 'entropy:0.86291\n', 'Top 100\n', 'Hit Ratio:0.28632\n', 'Precision:0.00494\n', 'Recall:0.28269\n', 'NDCG:0.11108\n', 'coverage:13.59034\n', 'entropy:1.59716\n']

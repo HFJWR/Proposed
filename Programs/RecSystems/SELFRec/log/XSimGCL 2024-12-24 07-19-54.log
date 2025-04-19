@@ -1,0 +1,15 @@
+2024-12-24 07:20:01,059 - XSimGCL - INFO - ### model configuration ###
+2024-12-24 07:20:01,059 - XSimGCL - INFO - training.set=./dataset/BLM/train.txt
+2024-12-24 07:20:01,059 - XSimGCL - INFO - test.set=./dataset/BLM/test.txt
+2024-12-24 07:20:01,059 - XSimGCL - INFO - model.name=XSimGCL
+2024-12-24 07:20:01,059 - XSimGCL - INFO - model.type=graph
+2024-12-24 07:20:01,059 - XSimGCL - INFO - item.ranking=-topN 20,100
+2024-12-24 07:20:01,059 - XSimGCL - INFO - embedding.size=64
+2024-12-24 07:20:01,059 - XSimGCL - INFO - num.max.epoch=30
+2024-12-24 07:20:01,060 - XSimGCL - INFO - batch_size=2048
+2024-12-24 07:20:01,060 - XSimGCL - INFO - learnRate=0.001
+2024-12-24 07:20:01,060 - XSimGCL - INFO - reg.lambda=0.0001
+2024-12-24 07:20:01,060 - XSimGCL - INFO - XSimGCL=-n_layer 2 -l* 1 -lambda 0.2 -eps 0.2 -tau 0.15
+2024-12-24 07:20:01,060 - XSimGCL - INFO - output.setup=-dir ./results/
+2024-12-24 07:27:24,704 - XSimGCL - INFO - ###Evaluation Results###
+2024-12-24 07:27:24,704 - XSimGCL - INFO - ['Top 20\n', 'Hit Ratio:0.15421\n', 'Precision:0.01322\n', 'Recall:0.15514\n', 'NDCG:0.08204\n', 'coverage:12.37379\n', 'entropy:2.36079\n', 'gini:0.26261\n', 'Top 100\n', 'Hit Ratio:0.29142\n', 'Precision:0.00499\n', 'Recall:0.28707\n', 'NDCG:0.10972\n', 'coverage:27.06562\n', 'entropy:2.89705\n', 'gini:0.47551\n']

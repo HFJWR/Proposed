@@ -1,0 +1,4 @@
+このディレクトリにデータセットの元データを挿入してください。
+データセット作成プログラム実行時の本ディレクトリにおける階層例
+・BLMの場合: ~/datasets/blm_v2/2020-06_v2.jsonl
+・OAGの場合: ~/datasets/AcademicGraph_datasets/OAG_ver2-1/unzipped/mag/mag_authors_0.txt

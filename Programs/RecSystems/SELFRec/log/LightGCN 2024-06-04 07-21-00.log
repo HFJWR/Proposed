@@ -1,0 +1,15 @@
+2024-06-04 07:21:06,783 - LightGCN - INFO - ### model configuration ###
+2024-06-04 07:21:06,783 - LightGCN - INFO - training.set=./dataset/BLM/train.txt
+2024-06-04 07:21:06,783 - LightGCN - INFO - test.set=./dataset/BLM/test.txt
+2024-06-04 07:21:06,783 - LightGCN - INFO - model.name=LightGCN
+2024-06-04 07:21:06,784 - LightGCN - INFO - model.type=graph
+2024-06-04 07:21:06,784 - LightGCN - INFO - item.ranking=-topN 20,100
+2024-06-04 07:21:06,784 - LightGCN - INFO - embedding.size=64
+2024-06-04 07:21:06,784 - LightGCN - INFO - num.max.epoch=300
+2024-06-04 07:21:06,784 - LightGCN - INFO - batch_size=2048
+2024-06-04 07:21:06,784 - LightGCN - INFO - learnRate=0.001
+2024-06-04 07:21:06,784 - LightGCN - INFO - reg.lambda=0.0001
+2024-06-04 07:21:06,784 - LightGCN - INFO - LightGCN=-n_layer 2
+2024-06-04 07:21:06,784 - LightGCN - INFO - output.setup=-dir ./results/
+2024-06-04 07:35:00,633 - LightGCN - INFO - ###Evaluation Results###
+2024-06-04 07:35:00,634 - LightGCN - INFO - ['Top 20\n', 'Hit Ratio:0.15477\n', 'Precision:0.01944\n', 'Recall:0.15834\n', 'NDCG:0.09138\n', 'Top 100\n', 'Hit Ratio:0.31158\n', 'Precision:0.00783\n', 'Recall:0.30887\n', 'NDCG:0.12669\n']

@@ -1,0 +1,13 @@
+2024-10-17 03:37:20,343 - XSimGCL - INFO - ### model configuration ###
+2024-10-17 03:37:20,343 - XSimGCL - INFO - training.set=./dataset/BLM/train.txt
+2024-10-17 03:37:20,343 - XSimGCL - INFO - test.set=./dataset/BLM/test.txt
+2024-10-17 03:37:20,343 - XSimGCL - INFO - model.name=XSimGCL
+2024-10-17 03:37:20,343 - XSimGCL - INFO - model.type=graph
+2024-10-17 03:37:20,343 - XSimGCL - INFO - item.ranking=-topN 20,100
+2024-10-17 03:37:20,343 - XSimGCL - INFO - embedding.size=64
+2024-10-17 03:37:20,343 - XSimGCL - INFO - num.max.epoch=30
+2024-10-17 03:37:20,343 - XSimGCL - INFO - batch_size=2048
+2024-10-17 03:37:20,343 - XSimGCL - INFO - learnRate=0.001
+2024-10-17 03:37:20,343 - XSimGCL - INFO - reg.lambda=0.0001
+2024-10-17 03:37:20,343 - XSimGCL - INFO - XSimGCL=-n_layer 2 -l* 1 -lambda 0.2 -eps 0.2 -tau 0.15
+2024-10-17 03:37:20,343 - XSimGCL - INFO - output.setup=-dir ./results/

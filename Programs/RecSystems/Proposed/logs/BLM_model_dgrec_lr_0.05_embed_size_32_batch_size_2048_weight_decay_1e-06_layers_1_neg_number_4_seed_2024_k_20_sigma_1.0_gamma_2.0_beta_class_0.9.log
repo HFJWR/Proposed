@@ -1,0 +1,14 @@
+Fri, 28 Feb 2025 05:40:58  INFO loadding data
+Fri, 28 Feb 2025 05:40:58  INFO reading category information
+Fri, 28 Feb 2025 05:40:58  INFO reading train data
+Fri, 28 Feb 2025 05:40:59  INFO reading valid data
+Fri, 28 Feb 2025 05:40:59  INFO reading test data
+Fri, 28 Feb 2025 05:41:08  INFO get weight for each sample
+Fri, 28 Feb 2025 05:41:09  INFO train loss = 0.6465102434158325
+Fri, 28 Feb 2025 05:41:10  INFO loss: 1.2719147205352783, Performance is better... saving the model
+Fri, 28 Feb 2025 05:41:11  INFO train loss = 0.5305225849151611
+Fri, 28 Feb 2025 05:41:11  INFO loss: 1.2138813734054565, Performance is better... saving the model
+Fri, 28 Feb 2025 05:41:12  INFO train loss = 0.43912485241889954
+Fri, 28 Feb 2025 05:41:12  INFO loss: 1.1688122749328613, Performance is better... saving the model
+Fri, 28 Feb 2025 05:41:12  INFO loading best model for test
+Fri, 28 Feb 2025 05:41:12  INFO begin testing

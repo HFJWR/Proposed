@@ -1,0 +1,13 @@
+2024-06-03 06:58:38,610 - LightGCN - INFO - ### model configuration ###
+2024-06-03 06:58:38,610 - LightGCN - INFO - training.set=./dataset/yelp2018/train.txt
+2024-06-03 06:58:38,610 - LightGCN - INFO - test.set=./dataset/yelp2018/test.txt
+2024-06-03 06:58:38,610 - LightGCN - INFO - model.name=LightGCN
+2024-06-03 06:58:38,610 - LightGCN - INFO - model.type=graph
+2024-06-03 06:58:38,610 - LightGCN - INFO - item.ranking=-topN 10,20
+2024-06-03 06:58:38,610 - LightGCN - INFO - embedding.size=64
+2024-06-03 06:58:38,610 - LightGCN - INFO - num.max.epoch=500
+2024-06-03 06:58:38,610 - LightGCN - INFO - batch_size=2048
+2024-06-03 06:58:38,610 - LightGCN - INFO - learnRate=0.001
+2024-06-03 06:58:38,610 - LightGCN - INFO - reg.lambda=0.0001
+2024-06-03 06:58:38,610 - LightGCN - INFO - LightGCN=-n_layer 2
+2024-06-03 06:58:38,610 - LightGCN - INFO - output.setup=-dir ./results/
