@@ -14,6 +14,10 @@
 **概要図**
 ![Image](https://github.com/user-attachments/assets/b68d47bf-5297-4bf5-ab88-922b78bfe61c)
 
+## 研究業績
+ - H. Fujiwara, S. Yoshida and M. Muneyasu, ”Diversified User Recommendation to Avoid Filter Bubbles in Social Media Communities,” Proceedings of the IEEE 13th Global Conference on Consumer Electronics (GCCE), pp.16-18, October, 2024.
+
+ - 藤原滉規，吉田壮，棟安実治，“ソーシャルメディアにおけるコミュニティ情報を用いた2段階多様化推薦システム”，電子情報通信学会スマートインフォメディアシステム研究会，vol.124, no.288, pp.13-18, 2024 年 12 月.
 
 ## Directory Tree
 Programs以下の大まかなディレクトリ構造
@@ -56,12 +60,12 @@ Programs以下の大まかなディレクトリ構造
     ~~~
     python main.py --decay=1e-4 --lr=0.001 --layer=3 --seed=2020 --dataset="BLM" --topks="[100]" --recdim=64 --epoch 301
     ~~~
-    XSimGCLの実行方法
+    XSimGCLの実行方法  
+    パラメータ、データセット等は(./conf/XSimGCL.conf)で決定
     ~~~
     python main.py
     ~~~
-    パラメータ、データセット等は(./conf/XSimGCL.conf)で決定
-    
+
 ### Environment  
 DGL version 1.0.1  
 Pytorch version 1.12.1  
