@@ -30,7 +30,9 @@ Programs以下の大まかなディレクトリ構造
     │   └── SELFRec（比較手法2: XSimGCL）
     └── datasets（データセットの元データ）
 ~~~
+
 <br>
+
 - Dataloader  
     BLM，OAGのデータセット(二部グラフ)を作成
     - BLMconstructor：BLMdatasets内の元データからコミュニティ情報付きの二部グラフを作成
@@ -41,7 +43,9 @@ Programs以下の大まかなディレクトリ構造
         │   ├── output（作成したデータセット，作成時の中間ファイル（データベース））
         │   └── result（Homogeniety Levelや推薦結果のテキストファイル）
     ~~~
+
 <br>
+
 - RecSystems  
     提案手法，比較手法をまとめています  
     Proposedの実行方法
